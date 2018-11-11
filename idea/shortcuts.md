@@ -56,3 +56,89 @@
 
 - **tab** to move between sections in search everywhere window
 
+#### Tabs, the No. 1 Productivity Killer
+Switch tabs off by:
+- pressing **Ctrl** + **Shift** + **A**
+- type tab place and choose **Tab placement: None**
+
+**Ctrl** + **E**                    to navigate to recent files
+**Ctrl** + **Shift** + **E**        to navigate to recent edited files
+
+## Code Selection
+
+#### Selecting Characters, Words and Lines
+**Ctrl** + **Shift** + **Right** or **Left**
+
+Action: Move Caret to Next/Previous Word with Selection
+
+**Shift** + **Home** or **End**
+
+Action: Move Caret to Text Start/End with Selection
+
+#### Extending and Shrinking Selection
+**Ctrl** + **W**                    to extend selection
+**Ctrl** + **Shift** + **W**        to shrink selection
+
+## Code Completion
+#### Smart Code Completion I
+**Ctrl** + **Shift** + **Space**        to invoke smart code completion
+
+- after the new keyword in an object declaration
+- in the list of parameters of a method call
+- in return statements
+
+#### Smart Code Completion II
+**Ctrl** + **Shift** + **Space Twice**      to invokde smart code completion for:
+
+- static expressions
+- collections, lists and arrays
+
+#### Static Method Completion
+**Ctrl** + **Space Twice**       to display static method suggestion list
+
+#### Postfix Completion
+**Ctrl** + **J**    to display postfix completion suggestion list
+
+- nn/null (check expression to be null)
+- notnull (checks expression to be not-null)
+- synchronized (produces synchronization statement)
+
+**Null example**
+```
+String s = "Hello";
+        s.null
+```
+after pressing enter, intelliJ will produce
+```
+String s = "Hello";
+if (s == null) {
+
+        }
+```
+
+**Synchronized example**
+```
+String s = "Hello";
+        s.synchronized
+```
+after pressing enter, intelliJ will produce
+```
+String s = "Hello";
+synchronized (s) {
+
+}
+```
+
+## Code Generation
+#### Generating Constructor, getter, setter, equals and hashCode Methods
+**Alt** + **Insert**        to display generate menu in class file
+
+## Version Control
+#### VCS Operations Popup, Searching for Branches, Annotation
+Default keymap
+
+**Alt** + **Back Quote**        to bring up VCS operations popup
+
+My shortcut for fedora
+
+**Alt** + **V**                 to bring up VCS operations popup
