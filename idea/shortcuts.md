@@ -1,5 +1,7 @@
 # IntelliJ IDEA Shortcuts
 
+This is the Default Keymap in IntelliJ idea. Tested on Fedora 27.
+
 ## Editing and Working With Code
 
 #### Moving Line and Statement
