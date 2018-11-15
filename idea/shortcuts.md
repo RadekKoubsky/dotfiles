@@ -142,3 +142,38 @@ Default keymap
 My shortcut for fedora
 
 **Alt** + **V**                 to bring up VCS operations popup
+
+## Language injection
+Lets say we want to create a json string:
+
+```
+String json = "";
+```
+
+Press **Alt** + **Enter** to display the intention actions and select
+
+<i>Inject language or reference</i>
+
+select **JSON** and press enter.
+
+**JSON** has been injected into the string.
+
+Press **Alt** + **Enter** again and select
+
+<i>Edit JSON fragment</i>
+
+IntelliJ opens new fragment editor for you.
+
+When you insert JSON code into the fragment editor, the code gets
+automatically injected into the original string.
+
+When you are done, press **Ctrl** + **F4** to end the current fragment editor.
+
+Output of the language injection into the original string:
+```
+//language=JSON
+String json = "{\"jsonObject\": {\n" +
+                       "  \"fieldA\": 5,\n" +
+                       "  \"fieldB\": \"String\"\n" +
+           "}}";
+```
